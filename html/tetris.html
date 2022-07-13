@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>푸른별 캡스톤</title>
+    <link rel="stylesheet" href="../css/tetris-css.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="start-text">
+            T E T R I S
+            <button>게임시작</button>
+        </div>
+        <div class="game-text">
+            Game Over
+            <div class="ending-score"></div>
+            <button onclick="location.href='tetris.html';">다시시작</button>
+        </div>
+        <div class="score">0 Line</div>
+        <div class="playground">
+            <ul></ul>
+        </div>
+        <div class="guide-div">
+            <div></div>
+            <ul>
+                <div class="guideOff">
+                    <div class="guide-textbox">
+                        <h2>게임설명</h2>
+                        테트리스는 상단에서 떨어지는 블록들을 조절하여 최대한 많은 줄을 지우는 게임입니다.<br/><br/>
+                        게임판이 가득 차 블록이 더이상 떨어질 수 없게 되면 종료됩니다.
+                        <ul></ul>
+                    </div>
+                </div>
+            </ul>
+        </div>
+        <span class="prev"></span>
+        <span class="next"></span>
+        <p class="home"></p>
+    </div>
+    <script src="../javascript/tetris-js.js"></script>
+</body>
+</html>     

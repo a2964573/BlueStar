@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>푸른별 캡스톤</title>
+    <link rel="stylesheet" href="../css/2048.css">
+</head>
+<body>
+    <div class="contents">
+        <div class="playground">
+            <table id="board">
+                <tr>
+                    <td id="00"></td>
+                    <td id="01"></td>
+                    <td id="02"></td>
+                    <td id="03"></td>
+                </tr>
+             <tr>
+                    <td id="10"></td>
+                    <td id="11"></td>
+                    <td id="12"></td>
+                    <td id="13"></td>
+                </tr>
+                <tr>
+                   <td id="20"></td>
+                   <td id="21"></td>
+                   <td id="22"></td>
+                   <td id="23"></td>
+                </tr>
+                <tr>
+                    <td id="30"></td>
+                    <td id="31"></td>
+                    <td id="32"></td>
+                    <td id="33"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="start-text">
+            2 0 4 8
+            <button>게임시작</button>
+        </div>
+        <div class="game-text">
+            Game Over
+            <div class="ending-score"></div>
+            <button onclick="location.href='2048.html';">다시시작</button>
+        </div>
+        <div id="score">0 score</div>
+        <div class="guide-div">
+            <div></div>
+            <ul>
+                <div class="guideOff">
+                    <div class="guide-textbox">
+                        <h2>게임설명</h2>
+                            2048은 랜덤으로 생성되는 숫자들을 조작해 2048까지 더하는 것이 목표인 게임입니다.<br/><br/>   
+                            목표를 달성하거나 게임판이 숫자로 가득차 더이상 이동할 수 없는 상태가 되면 종료됩니다.
+                        <ul></ul>
+                    </div>
+                </div>
+            </ul>
+        </div>
+        <span class="prev"></span>
+        <span class="next"></span>
+        <p class="home"></p>    
+    </div>
+    <script src="../javascript/2048-js.js"></script>
+</body>
+</html>
