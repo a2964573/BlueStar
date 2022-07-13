@@ -1,0 +1,181 @@
+*{margin:0px; padding:0px;}
+body{
+    background-color: #000;
+    color:#fff;
+    font-family: fantasy;
+}
+.content{
+    width: 100%;
+    height: 100%;
+}
+
+#canvas{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: auto;
+    display: block;
+	margin-top: 2rem;
+    border: 3px solid #fff;
+}
+#canvas2{
+    display: none;
+}
+.score{
+    position: relative;
+    float: right;
+    margin-top: 1rem;
+    margin-right: 6.2rem;
+    font-size: 50px;
+}
+.start-text,.game-text{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    left: 0;
+    top: 0;
+    color: #fff;
+    font-size: 70px;
+}
+.start-text > button,.game-text > button{
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    color: #fff;
+    background: #000;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+.start-text > button:hover,.game-text > button:hover{
+    background: #333;
+}
+.ending-score{
+    display: block;
+    padding-bottom: 0.5rem;
+    font-size: 0.8em;
+    text-align: center;
+    color: red;
+}
+
+/* guide-css */
+.guide-div{
+	display: block;
+    position: absolute;
+    width: 100%;
+    margin-top: 3.1rem;
+}
+.guide-div > div{
+    float: right;
+    background: url("../image/guide-icon-white.png") no-repeat;
+    background-size: 30px 30px;
+    background-position: center center;
+    border-radius: 50%;
+	width: 30px;
+	height: 30px;
+    padding: 20px;
+    margin-top: -2rem;
+    margin-right: 2rem;
+    border: none;
+    cursor: pointer;
+}
+.guide-div > div:hover{
+    background-color: rgba(128,128,128,0.7);
+    transform: translate(-10px) scale(1.2);
+    transition: 0.8s;
+}
+.guide-icon > ul > div{
+    position: fixed;
+    font-size: 30px;
+}
+.guideOff{
+    display: none;
+    position: fixed;
+    margin-top: 400px;
+    margin-left: -400px;
+}
+.guide-textbox{
+    border: 1px solid #fff;
+    background: #0d0d0d;
+    position: fixed;
+    width: 1320px;
+    height: 110px;
+    padding: 20px;
+    margin-top: -9rem;
+    margin-left: 27rem;
+    text-align: left;
+    font-size: 20px;
+    cursor: default;
+}
+.guide-textbox > div{
+    display: inline-block;
+    width: 650px;
+    height: 120px;
+}
+.guide-textbox > div > h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.guide-textbox > ul{
+    background: url("../image/keyguide-jump.PNG") no-repeat;
+    background-size: 628px 110px;
+    border: 1px solid white;
+    display: inline-block;
+    width: 628px;
+    height: 110px;
+    margin-left: 2rem;
+}
+
+/* redirect handler */
+.content span{
+    position: absolute;
+    background-size: 20px 40px;
+    background-position: center center;
+    border-radius: 50%;
+    width: 20px;
+    height: 40px;
+    padding: 10px 20px;
+    top: 50%;
+    cursor: pointer;
+}
+.prev{
+    background: url("../image/redirect-left-white.png") no-repeat;
+    left: 10px;
+}
+.next{
+    background: url("../image/redirect-right-white.png") no-repeat;
+    right: 10px;
+}
+.prev:hover{
+    background-color: rgba(128,128,128,0.7);
+    background-repeat: repeat-x;
+    transform: translateX(10px);
+    transition: 0.8s;
+}
+.next:hover{
+    background-color: rgba(128,128,128,0.7);
+    background-repeat: repeat-x;
+    transform: translateX(-10px);
+    transition: 0.8s;
+}
+.home{
+    background: url("../image/redirect-index-white.png") no-repeat;
+    position: absolute;
+    background-size: 40px;
+    background-position: center center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    left: 48%;
+    padding: 20px;
+    bottom: 0px;
+    cursor: pointer;
+}
+.home:hover{
+    background-color: rgba(128,128,128,0.7);
+    transform: translatey(-10px);
+    transition: 0.8s;
+}
