@@ -1,7 +1,20 @@
-# -PJ-BlueStar
-ì‹ ì•ˆì‚°ëŒ€í•™êµ ì»´í“¨í„°ì •ë³´ê³¼ 2í•™ë…„ ìº¡ìŠ¤í†¤ë””ìì¸ ê³¼ì œ - ì›¹ê²Œì„
+# Project BlueStar
+### À¥°ÔÀÓ
+###### Web game
+---
+## Introduce
+½Å¾È»ê´ëÇĞ±³ ÄÄÇ»ÅÍÁ¤º¸°ú 2ÇĞ³â Ä¸½ºÅæµğÀÚÀÎ °úÁ¦ - À¥°ÔÀÓ
 
-ì°¸ê³  : 
-  ìœ íŠœë¸Œ ë°ë¸Œë¦¬ë‹˜ https://www.youtube.com/watch?v=1lNy2mhvLFk 
-  ìœ íŠœë¸Œ ì½”ë”©ì• í”Œë‹˜ https://youtu.be/qkTtmgCjHhM
-  yjyoon-devë‹˜ https://yjyoon-dev.github.io/project/2020/11/13/jsgame-2048/
+¿©·¯°¡Áö °£´ÜÇÑ 1ÀÎ¿ë ¿ÀÇÁ¶óÀÎ °ÔÀÓÀ» Áñ±æ ¼ö ÀÖ´Â À¥ÆäÀÌÁö ÀÔ´Ï´Ù
+###### Second-year computer information department at Sinansan University, Capstone design project - Web game
+###### It is a web page where you can enjoy various simple offline games for one person
+
+## Skill
+* HTML
+* CSS
+* JavaScript
+
+## Reference
+* À¯Æ©ºê µ¥ºê¸®´Ô <https://www.youtube.com/watch?v=1lNy2mhvLFk>
+* À¯Æ©ºê ÄÚµù¾ÖÇÃ´Ô <https://youtu.be/qkTtmgCjHhM>
+* yjyoon-dev´Ô <https://yjyoon-dev.github.io/project/2020/11/13/jsgame-2048/>
